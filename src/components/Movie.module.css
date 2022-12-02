@@ -1,0 +1,31 @@
+.movie {
+    background-color: linen;
+    margin: 50px;
+    font-weight: 300;
+    padding: 20px;
+    border-radius: 5px;
+    color: #adaeb9;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.movieLink {
+    text-decoration-line: none;
+    color: black;
+}
+
+.movieGrid {
+    display: grid;
+    grid-template-columns: minmax(250px, 1fr) 2fr;
+    grid-gap: 20px
+}
+
+.homeTitle {
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 20px;
+}
